@@ -140,10 +140,10 @@ const Navbar = () => {
   // href ki jagah proper paths dale hain
   const navLinks = [
     { name: 'Home', path: '/' },
-    { name: 'Services', path: '/services' },
+    { name: 'Services', path: '/Services' },
     { name: 'Insurance Claim', path: '/insurance' },
     { name: 'Prices', path: '/prices' },
-    { name: 'About Us', path: '/about' },
+    { name: 'AboutUs', path: '/AboutUs' },
     { name: 'Contact', path: '/contact' },
   ];
 

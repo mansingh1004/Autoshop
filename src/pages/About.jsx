@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Target, Award, Users, Wrench, CheckCircle2, Clock } from 'lucide-react';
 
 const AboutUs = () => {
