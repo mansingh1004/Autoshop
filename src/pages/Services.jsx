@@ -1,26 +1,27 @@
 
 
-
-
 import React from 'react';
+import { useNavigate } from 'react-router-dom'; // 1. Import useNavigate
 import { Car, ArrowRight, Wrench, Shield, Zap, Droplets, Wind, Layout, Sparkles } from 'lucide-react';
 
 const Services = () => {
+  const navigate = useNavigate(); // 2. Initialize the navigate function
+
   const serviceData = [
-    { title: "Periodic Service", desc: "Regular maintenance and servicing with 90-minutes turnaround.", icon: <Wrench size={24} />, link: "/service/periodic" },
-    { title: "Denting & Painting", desc: "Expert dent removal and premium painting services for all cars.", icon: <Sparkles size={24} />, link: "/service/denting" },
-    { title: "Free Pickup & Drop", desc: "Doorstep car services and hassle-free repairs across the city.", icon: <Car size={24} />, link: "/service/pickup" },
-    { title: "AC Service", desc: "Professional Car AC Repair and high-performance cooling maintenance.", icon: <Wind size={24} />, link: "/service/ac" },
-    { title: "Car Spa & Cleaning", desc: "Deep interior cleaning and exterior foam wash for a showroom finish.", icon: <Droplets size={24} />, link: "/service/spa" },
+    { title: "Periodic Service", desc: "Regular maintenance and servicing with 90-minutes turnaround.", icon: <Wrench size={24} />, link: "/periodicservice" },
+    { title: "Denting & Painting", desc: "Expert dent removal and premium painting services for all cars.", icon: <Sparkles size={24} />, link: "/denting-painting" },
+    { title: "Free Pickup & Drop", desc: "Doorstep car services and hassle-free repairs across the city.", icon: <Car size={24} />, link: "/pickupdrop" },
+    { title: "AC Service", desc: "Professional Car AC Repair and high-performance cooling maintenance.", icon: <Wind size={24} />, link: "/acservice" },
+    { title: "Car Spa & Cleaning", desc: "Deep interior cleaning and exterior foam wash for a showroom finish.", icon: <Droplets size={24} />, link: "/carspa" },
     { title: "Battery Service", desc: "Instant battery check, repair and genuine brand replacement.", icon: <Zap size={24} />, link: "/service/battery" },
     { title: "Car Detailing", desc: "Ceramic coating and professional detailing to protect your paint.", icon: <Shield size={24} />, link: "/service/detailing" },
     { title: "Windshield Service", desc: "Glass repair and crack-resistant windshield replacement.", icon: <Layout size={24} />, link: "/service/windshield" },
   ];
 
+  // 3. Updated function to handle actual navigation
   const handleNavigation = (link) => {
-    // Yahan aap window.location.href = link ya React Router use kar sakte hain
-    console.log("Navigating to:", link);
-    alert(`Redirecting to ${link} page...`);
+    navigate(link); // This triggers the route change
+    window.scrollTo(0, 0); // Ensures the new page starts at the top
   };
 
   return (
@@ -51,7 +52,6 @@ const Services = () => {
             <div 
               key={index} 
               onClick={() => handleNavigation(item.link)}
-              // Mobile View Effect: active:scale-95 aur active:shadow-inner
               className="group relative flex flex-col p-8 bg-white border border-slate-200 rounded-tr-[60px] rounded-bl-[60px] rounded-tl-xl rounded-br-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl active:scale-95 active:bg-slate-50 cursor-pointer overflow-hidden"
             >
               {/* Icon Section */}
@@ -80,17 +80,16 @@ const Services = () => {
           ))}
         </div>
 
-        {/* "See More Services" Button Section */}
+        {/* Footer Button Section */}
         <div className="mt-20 flex justify-center">
           <button 
-            onClick={() => handleNavigation('/all-services')}
+            // onClick={() => handleNavigation('/contact')}
             className="group relative flex items-center gap-4 bg-slate-900 text-white px-12 py-5 rounded-2xl font-black uppercase italic tracking-[0.3em] overflow-hidden transition-all hover:bg-red-600 hover:shadow-[0_20px_40px_-10px_rgba(220,38,38,0.5)] active:scale-90"
           >
             <span className="relative z-10">See More Services</span>
             <div className="relative z-10 bg-white/20 p-2 rounded-full group-hover:rotate-45 transition-transform duration-500">
                 <ArrowRight size={24} />
             </div>
-            {/* Background Glow Effect on Hover */}
             <div className="absolute inset-0 bg-gradient-to-r from-red-600 to-orange-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
           </button>
         </div>
@@ -101,3 +100,5 @@ const Services = () => {
 };
 
 export default Services;
+
+
