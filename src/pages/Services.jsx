@@ -13,9 +13,10 @@ const Services = () => {
     { title: "Free Pickup & Drop", desc: "Doorstep car services and hassle-free repairs across the city.", icon: <Car size={24} />, link: "/pickupdrop" },
     { title: "AC Service", desc: "Professional Car AC Repair and high-performance cooling maintenance.", icon: <Wind size={24} />, link: "/acservice" },
     { title: "Car Spa & Cleaning", desc: "Deep interior cleaning and exterior foam wash for a showroom finish.", icon: <Droplets size={24} />, link: "/carspa" },
-    { title: "Battery Service", desc: "Instant battery check, repair and genuine brand replacement.", icon: <Zap size={24} />, link: "/service/battery" },
-    { title: "Car Detailing", desc: "Ceramic coating and professional detailing to protect your paint.", icon: <Shield size={24} />, link: "/service/detailing" },
-    { title: "Windshield Service", desc: "Glass repair and crack-resistant windshield replacement.", icon: <Layout size={24} />, link: "/service/windshield" },
+    { title: "Battery Service", desc: "Instant battery check, repair and genuine brand replacement.", icon: <Zap size={24} />, link: "/batteryservice" },
+    { title: "Car Detailing", desc: "Ceramic coating and professional detailing to protect your paint.", icon: <Shield size={24} />, link: "/cardetailing" },
+    { title: "Windshield Service", desc: "Glass repair and crack-resistant windshield replacement.", icon: <Layout size={24} />, link: "/windshieldservice" },
+    // { title: "Engine Diagnostics", desc: ".", icon: <Layout size={24} />, link: "/enginediagnostics" },
   ];
 
   // 3. Updated function to handle actual navigation

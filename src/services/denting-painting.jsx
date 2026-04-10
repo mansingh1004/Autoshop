@@ -1,4 +1,5 @@
-import React, { useState } from 'react'; // Added useState
+import React, { useState } from 'react';
+import daintingpainting from '../images/Dainting-painting.mp4'
 import { 
   Wrench, 
   Clock, 
@@ -11,9 +12,10 @@ import {
   Sparkles,
   Palette,
   Hammer,
-  X, // Added for Modal
+  X,
   Loader2,
-  Send
+  Send,
+  Play
 } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 
@@ -114,18 +116,49 @@ const DentingPaintingDetail = () => {
         </div>
       )}
 
-      {/* --- Breadcrumb Navigation --- */}
-      <div className="bg-slate-50 border-b border-slate-200 py-4">
-        <div className="max-w-7xl mx-auto px-6 flex items-center gap-2 text-sm font-medium text-slate-500">
-          <Link to="/" className="hover:text-red-600 transition-colors">Home</Link>
-          <ChevronRight size={16} />
-          <Link to="/services" className="hover:text-red-600 transition-colors">Services</Link>
-          <ChevronRight size={16} />
-          <span className="text-slate-900">Denting & Painting</span>
+      {/* --- VIDEO HERO SECTION --- */}
+      <div className="relative h-[60vh] md:h-[70vh] w-full overflow-hidden">
+        {/* Dark Overlay for Text Legibility */}
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent z-10"></div>
+        
+        {/* The Video Element */}
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          {/* Replace this URL with your actual video path */}
+          <source src= {daintingpainting} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        {/* Hero Content Overlay */}
+        <div className="absolute inset-0 z-20 flex flex-col justify-end pb-12 px-6">
+          <div className="max-w-7xl mx-auto w-full">
+            <div className="inline-flex items-center gap-2 bg-red-600 text-white px-4 py-2 rounded-lg text-xs font-black uppercase tracking-[0.2em] mb-4 transform -skew-x-12">
+              Premium Paint Lab
+            </div>
+            <h1 className="text-4xl md:text-7xl font-black text-white leading-tight uppercase italic tracking-tighter">
+              Bespoke <span className="text-red-600">Denting</span> <br /> 
+              & Painting
+            </h1>
+            
+            {/* Breadcrumb Navigation inside Hero */}
+            <div className="flex items-center gap-2 text-sm font-bold text-slate-300 mt-8 uppercase tracking-widest">
+              <Link to="/" className="hover:text-red-600 transition-colors">Home</Link>
+              <ChevronRight size={14} className="text-red-600" />
+              <Link to="/services" className="hover:text-red-600 transition-colors">Services</Link>
+              <ChevronRight size={14} className="text-red-600" />
+              <span className="text-white">Denting & Painting</span>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 py-12 lg:py-20">
+      {/* --- CONTENT SECTION --- */}
+      <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           
           <div className="space-y-8">
@@ -134,18 +167,18 @@ const DentingPaintingDetail = () => {
               Showroom Finish Guaranteed
             </div>
             
-            <h1 className="text-4xl md:text-5xl font-black text-slate-950 leading-tight">
+            <h2 className="text-3xl md:text-5xl font-black text-slate-950 leading-tight">
               Restore Your Car’s <br /> 
               <span className="text-red-600">Original Glow</span>
-            </h1>
+            </h2>
 
-            <p className="text-lg text-slate-600 leading-relaxed">
-              Dents and scratches don't just look bad—they can lead to rust and lower your car's value. Our expert technicians use specialized tools and premium paint booths to ensure a seamless finish.
+            <p className="text-lg text-slate-600 leading-relaxed font-medium">
+              Dents and scratches don't just look bad—they can lead to rust and lower your car's value. Our expert technicians use specialized tools and premium paint booths to ensure a <span className="text-slate-900 font-bold underline decoration-red-600">seamless finish</span> that matches your original factory color.
             </p>
 
             <div className="grid grid-cols-2 gap-4 border-y border-slate-100 py-8">
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center text-red-600">
+                <div className="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center text-red-600 shadow-sm">
                   <Palette size={24} />
                 </div>
                 <div>
@@ -154,7 +187,7 @@ const DentingPaintingDetail = () => {
                 </div>
               </div>
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center text-red-600">
+                <div className="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center text-red-600 shadow-sm">
                   <ShieldCheck size={24} />
                 </div>
                 <div>
@@ -165,45 +198,45 @@ const DentingPaintingDetail = () => {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold mb-6 flex items-center gap-2">
+              <h3 className="text-xl font-black mb-6 flex items-center gap-2 uppercase italic tracking-tight">
                 <Hammer className="text-red-600" size={20} />
                 What's Included?
               </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 gap-x-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-y-5 gap-x-8">
                 {serviceIncludes.map((item, index) => (
-                  <div key={index} className="flex items-center gap-3 text-slate-600">
-                    <CheckCircle2 size={18} className="text-green-500 flex-shrink-0" />
-                    <span className="text-sm font-medium">{item}</span>
+                  <div key={index} className="flex items-center gap-3 text-slate-600 group">
+                    <CheckCircle2 size={18} className="text-green-500 flex-shrink-0 group-hover:scale-110 transition-transform" />
+                    <span className="text-sm font-bold tracking-tight group-hover:text-slate-900 transition-colors">{item}</span>
                   </div>
                 ))}
               </div>
             </div>
           </div>
 
-          <div className="lg:sticky lg:top-32">
-            <div className="bg-slate-900 rounded-[2.5rem] p-8 md:p-10 text-white shadow-2xl relative overflow-hidden">
+          <div className="lg:sticky lg:top-10">
+            <div className="bg-slate-950 rounded-[2.5rem] p-8 md:p-10 text-white shadow-2xl relative overflow-hidden border border-white/5">
               <Car className="absolute -bottom-10 -right-10 text-white/5 w-64 h-64 -rotate-12" />
               
               <div className="relative z-10">
-                <h2 className="text-2xl font-bold mb-2">Schedule Your Service</h2>
-                <p className="text-slate-400 text-sm mb-8">Select your package and book a slot in seconds.</p>
+                <h2 className="text-2xl font-black uppercase italic mb-2 tracking-tighter">Schedule Your Service</h2>
+                <p className="text-slate-400 text-sm mb-8 font-medium">Select your package and book a slot in seconds.</p>
                 
                 <div className="space-y-6">
-                  <div className="bg-white/5 border border-white/10 p-5 rounded-2xl flex justify-between items-center">
+                  <div className="bg-white/5 border border-white/10 p-6 rounded-2xl flex justify-between items-center backdrop-blur-md">
                     <div>
-                      <p className="text-xs font-bold text-red-500 uppercase tracking-tighter">Starting From</p>
-                      <p className="text-3xl font-black">₹2,499</p>
+                      <p className="text-[10px] font-black text-red-500 uppercase tracking-widest mb-1">Starting From</p>
+                      <p className="text-4xl font-black tracking-tighter">₹2,499</p>
                     </div>
                     <div className="text-right">
                       <p className="text-xs text-slate-500 line-through font-bold">₹3,499</p>
-                      <p className="text-sm text-green-400 font-bold">Save 30%</p>
+                      <p className="text-sm text-green-400 font-bold px-2 py-1 bg-green-400/10 rounded-lg inline-block">Save 30%</p>
                     </div>
                   </div>
 
                   <div className="space-y-4">
                     <button 
                       onClick={() => setIsModalOpen(true)}
-                      className="w-full bg-red-600 hover:bg-red-700 text-white font-black uppercase tracking-widest py-5 rounded-2xl flex items-center justify-center gap-3 transition-all transform active:scale-95 shadow-lg shadow-red-900/20"
+                      className="w-full bg-red-600 hover:bg-red-700 text-white font-black uppercase tracking-widest py-6 rounded-2xl flex items-center justify-center gap-3 transition-all transform active:scale-95 shadow-xl shadow-red-900/40"
                     >
                       Book This Slot
                       <ArrowRight size={20} />
@@ -211,31 +244,31 @@ const DentingPaintingDetail = () => {
                     
                     <button 
                       onClick={() => navigate('/services')} 
-                      className="w-full bg-white/10 hover:bg-white/20 text-white font-bold py-4 rounded-2xl transition-all border border-white/5"
+                      className="w-full bg-white/10 hover:bg-white/20 text-white font-black uppercase tracking-widest py-4 rounded-2xl transition-all border border-white/5 text-sm"
                     >
                       View Other Packages
                     </button>
                   </div>
                   
-                  <p className="text-center text-[10px] text-slate-500 uppercase font-bold tracking-[0.2em]">
+                  <p className="text-center text-[10px] text-slate-500 uppercase font-black tracking-[0.3em]">
                     Free Pickup & Drop Available
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="mt-8 p-6 border border-slate-100 rounded-3xl flex items-center justify-between">
+            <div className="mt-8 p-8 border border-slate-100 rounded-[2rem] flex items-center justify-between bg-slate-50/50">
               <div className="flex items-center gap-4">
-                <div className="w-10 h-10 bg-green-50 text-green-600 rounded-full flex items-center justify-center">
-                  <Car size={20} />
+                <div className="w-12 h-12 bg-white text-green-600 rounded-2xl flex items-center justify-center shadow-sm">
+                  <Car size={24} />
                 </div>
                 <div>
-                  <p className="text-sm font-bold tracking-tight">Need a custom quote?</p>
-                  <p className="text-xs text-slate-500 font-medium">Talk to our service advisor</p>
+                  <p className="text-sm font-black tracking-tight uppercase">Need a custom quote?</p>
+                  <p className="text-xs text-slate-500 font-bold uppercase tracking-wider">Talk to an advisor</p>
                 </div>
               </div>
-              <a href="tel:+918576000084" className="text-red-600 font-black text-sm hover:underline tracking-widest">
-                CALL NOW
+              <a href="tel:+918576000084" className="bg-slate-950 text-white px-6 py-3 rounded-xl font-black text-xs hover:bg-red-600 transition-colors tracking-widest">
+                CALL
               </a>
             </div>
           </div>
