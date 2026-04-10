@@ -17,7 +17,7 @@ const Footer = () => {
             <div className="flex items-center gap-2 text-white">
               <Wrench className="text-red-600 w-6 h-6" />
               <span className="text-xl font-black tracking-tighter uppercase italic">
-                Auto<span className="text-red-600">Repair</span>
+                Auto<span className="text-red-600">Service</span>
               </span>
             </div>
             <p className="text-sm leading-relaxed">

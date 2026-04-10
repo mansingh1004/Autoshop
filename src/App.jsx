@@ -15,6 +15,10 @@ import DentingPaintingDetail from "./services/denting-painting";
 import PickupDropDetail from "./services/pickupdrop";
 import ACServiceDetail from "./services/acservice";
 import CarSpaDetail from "./services/carspa";
+import BatteryServiceDetail from "./services/batteryservice";
+import CarDetailingDetail from "./services/cardetailing";
+import WindshieldServiceDetail from "./services/windshieldservice";
+import EngineDiagnosticsDetail from "./services/enginediagnostics";
 
 const App = () => {
   return (
@@ -43,6 +47,14 @@ const App = () => {
           <Route path="acservice" element={<ACServiceDetail/>}/>
 
           <Route path="carspa" element={<CarSpaDetail/>}/>
+
+          <Route path="batteryservice" element={<BatteryServiceDetail/>}/>
+
+          <Route path="cardetailing" element={<CarDetailingDetail/>}/>
+
+          <Route path="windshieldservice" element={<WindshieldServiceDetail/>}/>
+
+          <Route path="enginediagnostics" element={<EngineDiagnosticsDetail/>}/>
 
         </Route>
 
