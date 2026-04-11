@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import landrover from "../images/landrover.png"
 import volvo from "../images/volvologo.png"
 import ferrari from "../images/ferrarilogo.png"
@@ -18,6 +19,7 @@ import toyota from "../images/toyotalogo.png";
 import maruti from "../images/marutilogo.png"
 import mg from "../images/mglogo.png"
 const BrandGrid = () => {
+  const navigate = useNavigate();
   const popularBrands = [
     { name: 'Maruti', logo: maruti },
     { name: 'Hyundai', logo: 'https://www.carlogos.org/logo/Hyundai-logo-silver-2560x1440.png' },
@@ -49,7 +51,10 @@ const BrandGrid = () => {
   ];
 
   const BrandCard = ({ brand }) => (
-    <div className="group relative flex flex-col items-center justify-center p-6 bg-white/80 backdrop-blur-sm border border-slate-200 rounded-2xl transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1)] hover:border-red-500/50 cursor-pointer overflow-hidden">
+    <div 
+      onClick={() => navigate(`/select-model/${brand.name.toLowerCase()}`)} 
+      className="group relative flex flex-col items-center justify-center p-6 bg-white/80 backdrop-blur-sm border border-slate-200 rounded-2xl transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1)] hover:border-red-500/50 cursor-pointer overflow-hidden"
+    >
       {/* Hover Background Glow */}
       <div className="absolute -inset-1 bg-gradient-to-r from-red-600 to-orange-400 opacity-0 group-hover:opacity-10 blur transition duration-500"></div>
       

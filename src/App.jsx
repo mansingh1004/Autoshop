@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import ScrollToTop from "./components/ScrollToTop"; 
 
+import SelectModel from "./pages/SelectModel";
+
 import Layout from "./Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -19,16 +21,24 @@ import BatteryServiceDetail from "./services/batteryservice";
 import CarDetailingDetail from "./services/cardetailing";
 import WindshieldServiceDetail from "./services/windshieldservice";
 import EngineDiagnosticsDetail from "./services/enginediagnostics";
+import OilFilterChangeDetail from "./services/oilfilterchange";
+import BrakeSuspensionDetail from "./services/brake-suspension";
+import ACElectricalRepairDetail from "./services/acelectricalrepair";
 
 const App = () => {
   return (
     <BrowserRouter>
     <ScrollToTop />
       <Routes>
+
+        
         
         <Route path="/" element={<Layout />}>
           
           <Route index element={<Home />} />
+
+          {/* ADD THIS NEW DYNAMIC ROUTE */}
+          {/* <Route path="select-model/:brandName" element={<SelectModel />} /> */}
           
           <Route path="AboutUs" element={<About />} />
           
@@ -55,6 +65,12 @@ const App = () => {
           <Route path="windshieldservice" element={<WindshieldServiceDetail/>}/>
 
           <Route path="enginediagnostics" element={<EngineDiagnosticsDetail/>}/>
+
+          <Route path="oilfilterchange" element={<OilFilterChangeDetail/>}/>
+
+          <Route path="brake-suspension" element={<BrakeSuspensionDetail/>}/>
+
+          <Route path="acelectricalrepair" element={<ACElectricalRepairDetail/>}/>
 
         </Route>
 
