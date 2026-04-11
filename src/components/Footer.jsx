@@ -36,11 +36,11 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-bold uppercase tracking-wider mb-6">Our Services</h3>
             <ul className="space-y-3 text-sm">
-              <li><a href="#" className="hover:text-white transition-colors">Engine Diagnostics</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Oil & Filter Change</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Brake & Suspension</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">AC & Electrical Repair</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Body Paint & Denting</a></li>
+              <li><a href="/enginediagnostics" className="hover:text-white transition-colors">Engine Diagnostics</a></li>
+              <li><a href="/oilfilterchange" className="hover:text-white transition-colors">Oil & Filter Change</a></li>
+              <li><a href="/brake-suspension" className="hover:text-white transition-colors">Brake & Suspension</a></li>
+              <li><a href="/acelectricalrepair" className="hover:text-white transition-colors">AC & Electrical Repair</a></li>
+              <li><a href="/denting-painting" className="hover:text-white transition-colors">Body Paint & Denting</a></li>
             </ul>
           </div>
 
@@ -84,9 +84,9 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-medium uppercase tracking-widest text-center">
-          <p>© {currentYear} AutoRepair Workshop. All rights reserved.</p>
+          <p>© {currentYear} AutoService Workshop. All rights reserved.</p>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-white transition-colors">Book Appointment</a>
+            <a href="/contact" className="hover:text-white transition-colors">Book Appointment</a>
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
           </div>
         </div>

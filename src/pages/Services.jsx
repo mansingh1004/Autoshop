@@ -16,7 +16,10 @@ const Services = () => {
     { title: "Battery Service", desc: "Instant battery check, repair and genuine brand replacement.", icon: <Zap size={24} />, link: "/batteryservice" },
     { title: "Car Detailing", desc: "Ceramic coating and professional detailing to protect your paint.", icon: <Shield size={24} />, link: "/cardetailing" },
     { title: "Windshield Service", desc: "Glass repair and crack-resistant windshield replacement.", icon: <Layout size={24} />, link: "/windshieldservice" },
-    // { title: "Engine Diagnostics", desc: ".", icon: <Layout size={24} />, link: "/enginediagnostics" },
+    { title: "Engine Diagnostics", desc: "Precision digital health checks for your engine. Detect, diagnose, and resolve faults with dealership-grade technology.", icon: <Wrench size={24} />, link: "/enginediagnostics" },
+    { title: "Oil & Filter Change", desc: "Maximize engine longevity with our premium synthetic oil refill and genuine OEM filter replacement. Designed to reduce friction and keep your engine running like new.", icon: <Droplets size={24} />, link: "/oilfilterchange" },
+    { title: "Brake & Suspension", desc: "Restore your car's stopping power and road-holding stability. From high-performance brake pad replacement to expert shock absorber tuning, we ensure your safety in every turn.", icon: <Zap size={24} />, link: "/brake-suspension" },
+    { title: "AC & Electrical Repair", desc: "Advanced troubleshooting for complex automotive electronics and climate control systems. We restore everything from icy-cool cabin temperatures to intricate wiring networks.", icon: <Wind size={24} />, link: "/acelectricalrepair" },
   ];
 
   // 3. Updated function to handle actual navigation
