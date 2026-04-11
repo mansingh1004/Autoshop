@@ -2,6 +2,7 @@
 
 
 import React from 'react';
+import { Link } from "react-router-dom";
 import { Facebook, Twitter, Instagram, Youtube, Mail, Phone, MapPin, Wrench, Clock } from 'lucide-react';
 
 const Footer = () => {
@@ -36,11 +37,11 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-bold uppercase tracking-wider mb-6">Our Services</h3>
             <ul className="space-y-3 text-sm">
-              <li><a href="/enginediagnostics" className="hover:text-white transition-colors">Engine Diagnostics</a></li>
-              <li><a href="/oilfilterchange" className="hover:text-white transition-colors">Oil & Filter Change</a></li>
-              <li><a href="/brake-suspension" className="hover:text-white transition-colors">Brake & Suspension</a></li>
-              <li><a href="/acelectricalrepair" className="hover:text-white transition-colors">AC & Electrical Repair</a></li>
-              <li><a href="/denting-painting" className="hover:text-white transition-colors">Body Paint & Denting</a></li>
+             <li><Link to="/enginediagnostics" className="hover:text-white transition-colors">Engine Diagnostics</Link></li>
+             <li><Link to="/oilfilterchange" className="hover:text-white transition-colors">Oil & Filter Change</Link></li>
+             <li><Link to="/brake-suspension" className="hover:text-white transition-colors">Brake & Suspension</Link></li>
+             <li><Link to="/acelectricalrepair" className="hover:text-white transition-colors">AC & Electrical Repair</Link></li>
+             <li><Link to="/denting-painting" className="hover:text-white transition-colors">Body Paint & Denting</Link></li>
             </ul>
           </div>
 
@@ -86,7 +87,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-medium uppercase tracking-widest text-center">
           <p>© {currentYear} AutoService Workshop. All rights reserved.</p>
           <div className="flex gap-6">
-            <a href="/contact" className="hover:text-white transition-colors">Book Appointment</a>
+            <Link to="/contact">Book Appointment</Link>
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
           </div>
         </div>
