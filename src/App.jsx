@@ -73,8 +73,6 @@ const App = () => {
 
           <Route path="acelectricalrepair" element={<ACElectricalRepairDetail/>}/>
 
-          {/* <Route path="premium-service" element={<PremiumComprehensiveService/>}/> */}
-
           // Change this line in App.jsx
            <Route path="premium-service/:carName" element={<PremiumComprehensiveService />} />
 
