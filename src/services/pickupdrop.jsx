@@ -79,7 +79,7 @@ const PickupDropDetail = () => {
             </button>
 
             <h2 className="text-2xl font-black text-white mb-2 uppercase italic">Schedule Pickup</h2>
-            <p className="text-slate-400 text-sm mb-8 font-medium">Doorstep Convenience • ₹0 Service Fee</p>
+            <p className="text-slate-400 text-sm mb-8 font-medium">Doorstep Convenience • ₹.. Service Fee</p>
 
             <form onSubmit={handleBooking} className="space-y-4">
               <input 
@@ -222,10 +222,10 @@ const PickupDropDetail = () => {
                   <div className="bg-white/5 border border-white/10 p-6 rounded-2xl flex justify-between items-center backdrop-blur-md">
                     <div>
                       <p className="text-[10px] font-black text-red-500 uppercase tracking-widest mb-1">Service Charge</p>
-                      <p className="text-4xl font-black tracking-tighter">₹0</p>
+                      <p className="text-4xl font-black tracking-tighter">₹..</p>
                     </div>
                     <div className="text-right">
-                      <p className="text-xs text-slate-500 line-through font-bold">₹500</p>
+                      <p className="text-xs text-slate-500 line-through font-bold">₹...</p>
                       <p className="text-sm text-green-400 font-bold px-2 py-1 bg-green-400/10 rounded-lg inline-block">Free with Service</p>
                     </div>
                   </div>

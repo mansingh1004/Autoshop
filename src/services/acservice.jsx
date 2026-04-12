@@ -79,7 +79,7 @@ const ACServiceDetail = () => {
             </button>
 
             <h2 className="text-2xl font-black text-white mb-2 uppercase italic">Book AC Service</h2>
-            <p className="text-slate-400 text-sm mb-8 font-medium">High-Performance Cooling • Starts ₹999</p>
+            <p className="text-slate-400 text-sm mb-8 font-medium">High-Performance Cooling • Starts ₹...</p>
 
             <form onSubmit={handleBooking} className="space-y-4">
               <input 
@@ -219,7 +219,7 @@ const ACServiceDetail = () => {
                   <div className="bg-white/5 border border-white/10 p-6 rounded-2xl flex justify-between items-center backdrop-blur-md">
                     <div>
                       <p className="text-[10px] font-black text-red-500 uppercase tracking-widest mb-1">Starting From</p>
-                      <p className="text-4xl font-black tracking-tighter">₹999</p>
+                      <p className="text-4xl font-black tracking-tighter">₹...</p>
                     </div>
                     <div className="text-right">
                       <p className="text-xs text-slate-500 line-through font-bold">₹1,499</p>

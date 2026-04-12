@@ -214,10 +214,10 @@ const OilFilterChangeDetail = () => {
                   <div className="bg-white/5 border border-white/10 p-6 rounded-2xl flex justify-between items-center backdrop-blur-md">
                     <div>
                       <p className="text-[10px] font-black text-red-500 uppercase tracking-widest mb-1">Labour Charge From</p>
-                      <p className="text-4xl font-black tracking-tighter">₹299</p>
+                      <p className="text-4xl font-black tracking-tighter">₹...</p>
                     </div>
                     <div className="text-right">
-                      <p className="text-xs text-slate-500 line-through font-bold">₹599</p>
+                      <p className="text-xs text-slate-500 line-through font-bold">₹...</p>
                       <p className="text-sm text-green-400 font-bold px-2 py-1 bg-green-400/10 rounded-lg inline-block uppercase text-[10px]">Save 50%</p>
                     </div>
                   </div>

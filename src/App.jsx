@@ -24,6 +24,7 @@ import EngineDiagnosticsDetail from "./services/enginediagnostics";
 import OilFilterChangeDetail from "./services/oilfilterchange";
 import BrakeSuspensionDetail from "./services/brake-suspension";
 import ACElectricalRepairDetail from "./services/acelectricalrepair";
+import PremiumComprehensiveService from "./services/premiumcomprehensiveservice";
 
 const App = () => {
   return (
@@ -38,7 +39,7 @@ const App = () => {
           <Route index element={<Home />} />
 
           {/* ADD THIS NEW DYNAMIC ROUTE */}
-          {/* <Route path="select-model/:brandName" element={<SelectModel />} /> */}
+          <Route path="select-model/:brandName" element={<SelectModel />} /> 
           
           <Route path="AboutUs" element={<About />} />
           
@@ -71,6 +72,11 @@ const App = () => {
           <Route path="brake-suspension" element={<BrakeSuspensionDetail/>}/>
 
           <Route path="acelectricalrepair" element={<ACElectricalRepairDetail/>}/>
+
+          {/* <Route path="premium-service" element={<PremiumComprehensiveService/>}/> */}
+
+          // Change this line in App.jsx
+           <Route path="premium-service/:carName" element={<PremiumComprehensiveService />} />
 
         </Route>
 

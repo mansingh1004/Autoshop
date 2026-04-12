@@ -5,7 +5,7 @@ const PricingPage = () => {
   const plans = [
     {
       name: "Basic Maintenance",
-      price: "1,999",
+      price: ".....",
       description: "Essential care for everyday commuters to keep the engine running smooth.",
       features: ["Oil & Filter Change", "32-Point Safety Inspection", "Fluid Top-ups", "Brake Pad Check", "Car Wash & Vacuum"],
       icon: <Car className="text-gray-400" size={30} />,
@@ -14,7 +14,7 @@ const PricingPage = () => {
     },
     {
       name: "Performance Tune-up",
-      price: "4,999",
+      price: "....",
       description: "Our most popular package. Designed for peak efficiency and road-trip readiness.",
       features: ["Everything in Basic", "Wheel Alignment & Balancing", "AC Filter Cleaning", "Engine Scanning", "Fuel System Cleaning", "6-Month Roadside Assist"],
       icon: <Wrench className="text-red-500" size={30} />,
@@ -23,7 +23,7 @@ const PricingPage = () => {
     },
     {
       name: "Elite Overhaul",
-      price: "9,999",
+      price: ".....",
       description: "Comprehensive care for premium cars and high-performance machines.",
       features: ["Everything in Performance", "Full Synthetic Oil Upgrade", "Throttle Body Cleaning", "Brake Disc Polishing", "Interior Deep Sanitization", "Pick-up & Drop-off"],
       icon: <Crown className="text-yellow-500" size={30} />,
