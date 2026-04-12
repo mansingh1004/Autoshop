@@ -24,7 +24,7 @@ import EngineDiagnosticsDetail from "./services/enginediagnostics";
 import OilFilterChangeDetail from "./services/oilfilterchange";
 import BrakeSuspensionDetail from "./services/brake-suspension";
 import ACElectricalRepairDetail from "./services/acelectricalrepair";
-import PremiumComprehensiveService from "./services/Premiumcomprehensiveservice";
+import PremiumComprehensiveService from "./services/PremiumComprehensiveservice";
 
 const App = () => {
   return (
@@ -73,7 +73,7 @@ const App = () => {
 
           <Route path="acelectricalrepair" element={<ACElectricalRepairDetail/>}/>
 
-          // Change this line in App.jsx
+       
            <Route path="premium-service/:carName" element={<PremiumComprehensiveService />} />
 
         </Route>
