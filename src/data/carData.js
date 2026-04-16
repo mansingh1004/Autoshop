@@ -43,6 +43,40 @@ import toyota_innova from '../images/toyota-innova.png'
 import toyota_fortuner from '../images/toyota-fortuner.png'
 import toyota_innova_crysta from '../images/toyota-innova-crysta.png'
 import tyota_Yaris from '../images/Toyota_Yaris.png'
+import toyota_glanza from '../images/Toyota_Glanza.png'
+import toyota_camry from '../images/toyota-camry.png'
+
+// tata
+
+import tata_tiago from '../images/tata-tiago.png'
+import tata_zest from '../images/tata-zest.png'
+import tata_nexon from '../images/tata-nexon.png'
+import tata_safari from '../images/tata-safari.png'
+import tata_harari from '../images/Tata Harrier.webp'
+import tata_altroz from '../images/Tata_Altroz.png'
+
+// kia 
+
+import kia_seltos from '../images/kia_Seltos.png'
+import kia_sonet from '../images/kia_sonet.png'
+import kia_carens from '../images/kia_carens.png'
+
+// mahindra
+
+import mahindra_bolero from '../images/mahindra_bolero.png'
+import Mahindra_XUV500 from '../images/Mahindra-XUV500.png'
+import Mahindra_scorpio from '../images/mahindra-scorpio.png'
+import Mahindra_kuv100 from '../images/mahindra-kuv100.png'
+import Mahindra_xuv from '../images/mahindra_XUV300.png'
+import Mahindra_thar from '../images/mahindra-thar.png'
+
+// mg
+
+import mg_hector from '../images/mg_hector.png'
+
+// nissan
+
+import nissan_micra from '../images/nissan-micra.png'
 
 export const carModelsByBrand = {
   maruti: [
@@ -266,6 +300,220 @@ export const carModelsByBrand = {
       description: "The Toyota Yaris is a compact, fuel-efficient car (available as a hatchback or sedan) renowned for reliability, affordability, and urban agility.",
       services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
     },
+    {
+    id: 6, 
+      name: "Toyota Glanza", 
+      image: toyota_glanza,
+      type: "Toyota Glanza",
+      price: "....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Toyota Glanza is a premium 5-seater hatchback, essentially a rebadged Maruti Suzuki Baleno, offering Toyota’s reliability, a 1.2-litre petrol engine (89 bhp), and available CNG variants.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
+    },
+    {
+    id: 7, 
+      name: "Toyota Camry", 
+      image: toyota_camry,
+      type: "Toyota Camry",
+      price: "....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Toyota Camry is a renowned mid-size luxury sedan celebrated for its exceptional reliability, comfort, and fuel efficiency, often serving as a popular choice for both families and executive chauffeur-driven roles.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
+    },
+  ],
+  tata :[
+      {
+      id: 1, 
+      name: "Tata Tiago", 
+      image: tata_tiago,
+      type: "Tata Tiago",
+      price: "....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Tata Tiago is a stylish, safe, and compact hatchback known for its 4-star GNCAP safety rating, robust build, and competitive pricing.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
+    },
+    {
+      id: 2, 
+      name: "Tata Zest", 
+      image: tata_zest,
+      type: "Tata Zest",
+      price: "....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Tata Zest is a 5-seater subcompact sedan aimed at urban commuters, known for its spacious cabin, refined 1.2L turbocharged petrol engine, and comfortable ride quality.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
+    },
+    {
+      id: 3, 
+      name: "Tata Safari", 
+      image: tata_safari,
+      type: "Tata Safari",
+      price: "....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Tata Safari is a premium 6/7-seater mid-size SUV known for its commanding road presence, 5-star BNCAP safety rating, and luxurious, tech-forward cabin.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
+    },
+    {
+      id: 4, 
+      name: "Tata Harrier", 
+      image: tata_harari,
+      type: "Tata Harrier",
+      price: "....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Tata Harrier is a premium 5-seater mid-size SUV known for its bold Impact Design 2.0, robust build quality, and strong road presence.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
+    },
+     {
+      id: 5, 
+      name: "Tata Nexon", 
+      image: tata_nexon,
+      type: "Tata Nexon",
+      price: "....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Tata Nexon is a top-selling, 5-star BNCAP-rated sub-compact SUV known for its safety, modern design, and powertrain versatility.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
+    },
+    {
+      id: 6, 
+      name: "Tata Altroz", 
+      image: tata_altroz,
+      type: "Tata Altroz",
+      price: "....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Tata Altroz is a premium 5-seater hatchback renowned for its 5-star Global NCAP safety rating, modern design, and wide range of powertrain options (petrol, diesel, CNG, and DCA automatic).",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
+    },
+  ],
+  kia:[
+    {
+     id: 1, 
+      name: "Kia Seltos", 
+      image: kia_seltos,
+      type: "Kia Seltos",
+      price: "....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Kia Seltos is a stylish, feature-packed compact SUV known for its bold design, robust engine options (including turbo-petrol and diesel), and advanced technology like ADAS.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
+    
+    },
+    {
+     id: 2, 
+      name: "Kia Sonet", 
+      image: kia_sonet ,
+      type: "Kia Sonet",
+      price: "....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Kia Sonet is a stylish, feature-packed sub-four-meter compact SUV designed for urban driving, featuring a bold tiger nose grille, premium cabin with a 10.25-inch infotainment system, and 385-liter boot space.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
+    
+    },
+    {
+     id: 3, 
+      name: "Kia Carens", 
+      image: kia_carens ,
+      type: "Kia Carens",
+      price: "....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Kia Carens is a stylish, feature-rich recreational vehicle (MPV) that blends SUV-like design with the practicality of a 6/7-seater family car.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
+    
+    },
+  ],
+
+  mahindra :[
+    {
+      id: 1, 
+      name: "Mahindra Bolero", 
+      image: mahindra_bolero ,
+      type: "Mahindra Bolero",
+      price: "....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Mahindra Bolero is a rugged, sub-4-meter, 7-seater MUV (multi-utility vehicle) known for its durability and popularity in rural and semi-urban India.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
+    },
+
+    {
+      id: 2, 
+      name: "Mahindra XUV500", 
+      image: Mahindra_XUV500 ,
+      type: "Mahindra XUV500",
+      price: "....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Mahindra XUV500 is a popular, discontinued 7-seater premium crossover SUV known for its monocoque chassis, powerful 2.2L mHawk diesel engine (153bhp/360Nm), and bold cheetah-inspired design.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
+    },
+
+    {
+      id: 3, 
+      name: "Mahindra Scorpio", 
+      image: Mahindra_scorpio,
+      type: "Mahindra Scorpio",
+      price: "....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Mahindra Scorpio is an iconic, rugged ladder-frame SUV known for its commanding road presence, powerful diesel engines, and versatile 7-seater configuration.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
+    },
+
+    {
+      id: 4, 
+      name: "Mahindra KUV100", 
+      image: Mahindra_kuv100,
+      type: "Mahindra KUV100",
+      price: "....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Mahindra KUV100 (or KUV100 NXT) is a sub-4 meter micro-SUV or tall-hatchback designed for urban environments, featuring unique SUV-like styling with a compact footprint.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
+    },
+
+    {
+      id: 5, 
+      name: "Mahindra XUV300", 
+      image: Mahindra_xuv,
+      type: "Mahindra XUV300",
+      price: "....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Mahindra XUV300 is a 5-seater subcompact SUV designed for performance and safety, known for its high torque engines (1.2L petrol/1.5L diesel) and 5-star GNCAP rating.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
+    },
+
+    {
+      id: 6, 
+      name: "Mahindra Thar", 
+      image: Mahindra_thar,
+      type: "Mahindra Thar",
+      price: "....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Mahindra Thar is a popular, rugged 3-door lifestyle SUV renowned for its iconic design and impressive off-road capabilities.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
+    },
+  ],
+
+  mg :[
+    {
+     id: 1, 
+      name: "MG Hector", 
+      image: mg_hector,
+      type: "MG Hector",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The MG Hector is a premium, feature-rich mid-size SUV (5, 6, or 7-seater) known for its spacious cabin, bold design, and advanced technology.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+  ],
+
+  nissan:[
+    {
+      id: 1, 
+      name: "Nissan Micra", 
+      image: nissan_micra,
+      type: "Nissan Micra",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Nissan Micra is a compact, agile 5-seater hatchback known for its stylish, rounded design, fuel-efficient engines (1.2L petrol/1.5L diesel), and easy maneuverability, making it ideal for city driving.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    
+    }
   ]
+
+    
   // ... other brands
 };
