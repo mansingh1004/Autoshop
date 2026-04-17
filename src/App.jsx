@@ -24,7 +24,7 @@ import EngineDiagnosticsDetail from "./services/enginediagnostics";
 import OilFilterChangeDetail from "./services/oilfilterchange";
 import BrakeSuspensionDetail from "./services/brake-suspension";
 import ACElectricalRepairDetail from "./services/acelectricalrepair";
-import PremiumComprehensiveService from "./services/premiumcomprehensiveservice";
+import PremiumComprehensiveService from "./services/PremiumComprehensiveService";
 
 import InsuranceClaimPage from "./pages/insurance";
 import WhatsAppButton from "./pages/whatsappbutton";
