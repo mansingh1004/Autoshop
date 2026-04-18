@@ -17,84 +17,98 @@
 
 // maruti model
 import Swift from '../images/maruti-suzuki-swift.png';
-import MarutiSuzuki from '../images/maruti-suzuki-wagonr.png'
-import SwiftDezire from '../images/maruti-suzuki-swift-dzire.png'
-import MarutiSuzukiBaleno from '../images/maruti-suzuki-baleno.png'
-import MarutiAlto from '../images/maruti-Alto.png'
-import MarutiRitz from '../images/maruti-suzuki-ritz.png'
-import Maruticelerio from '../images/maruti-suzuki-celerio.png'
-import Marutiertiga from '../images/maruti-suzuki-ertiga.png'
-import gypsy from '../images/maruti-suzuki-gypsy.png'
+import MarutiSuzuki from '../images/maruti-suzuki-wagonr.png';
+import SwiftDezire from '../images/maruti-suzuki-swift-dzire.png';
+import MarutiSuzukiBaleno from '../images/maruti-suzuki-baleno.png';
+import MarutiAlto from '../images/maruti-Alto.png';
+import MarutiRitz from '../images/maruti-suzuki-ritz.png';
+import Maruticelerio from '../images/maruti-suzuki-celerio.png';
+import Marutiertiga from '../images/maruti-suzuki-ertiga.png';
+import gypsy from '../images/maruti-suzuki-gypsy.png';
 
 
 // hyundai model
-import hyundai_i10 from '../images/hyundai-i10.png'
-import hyundai_120 from '../images/hyundai-i20.png'
-import hyundai_grandi10 from '../images/hyundai-grandi10.png'
-import hyundai_santro from '../images/hyundai-santro.png'
-import eon from '../images/hyundai-eon.png'
-import creta from '../images/hyundai-creta.png'
-import verna from '../images/hyundai-verna.png'
+import hyundai_i10 from '../images/hyundai-i10.png';
+import hyundai_120 from '../images/hyundai-i20.png';
+import hyundai_grandi10 from '../images/hyundai-grandi10.png';
+import hyundai_santro from '../images/hyundai-santro.png';
+import eon from '../images/hyundai-eon.png';
+import creta from '../images/hyundai-creta.png';
+import verna from '../images/hyundai-verna.png';
 
 // toyota
 
-import toyota_etios from '../images/toyota-etios.png'
-import toyota_innova from '../images/toyota-innova.png'
-import toyota_fortuner from '../images/toyota-fortuner.png'
-import toyota_innova_crysta from '../images/toyota-innova-crysta.png'
-import tyota_Yaris from '../images/Toyota_Yaris.png'
-import toyota_glanza from '../images/Toyota_Glanza.png'
-import toyota_camry from '../images/toyota-camry.png'
+import toyota_etios from '../images/toyota-etios.png';
+import toyota_innova from '../images/toyota-innova.png';
+import toyota_fortuner from '../images/toyota-fortuner.png';
+import toyota_innova_crysta from '../images/toyota-innova-crysta.png';
+import tyota_Yaris from '../images/Toyota_Yaris.png';
+import toyota_glanza from '../images/Toyota_Glanza.png';
+import toyota_camry from '../images/toyota-camry.png';
 
 // tata
 
-import tata_tiago from '../images/tata-tiago.png'
-import tata_zest from '../images/tata-zest.png'
-import tata_nexon from '../images/tata-nexon.png'
-import tata_safari from '../images/tata-safari.png'
-import tata_harari from '../images/Tata Harrier.webp'
-import tata_altroz from '../images/Tata_Altroz.png'
+import tata_tiago from '../images/tata-tiago.png';
+import tata_zest from '../images/tata-zest.png';
+import tata_nexon from '../images/tata-nexon.png';
+import tata_safari from '../images/tata-safari.png';
+import tata_harari from '../images/Tata Harrier.webp';
+import tata_altroz from '../images/Tata_Altroz.png';
 
 // kia 
 
-import kia_seltos from '../images/kia_Seltos.png'
-import kia_sonet from '../images/kia_sonet.png'
-import kia_carens from '../images/kia_carens.png'
+import kia_seltos from '../images/kia_Seltos.png';
+import kia_sonet from '../images/kia_sonet.png';
+import kia_carens from '../images/kia_carens.png';
 
 // mahindra
 
-import mahindra_bolero from '../images/mahindra_bolero.png'
-import Mahindra_XUV500 from '../images/Mahindra-XUV500.png'
-import Mahindra_scorpio from '../images/mahindra-scorpio.png'
-import Mahindra_kuv100 from '../images/mahindra-kuv100.png'
-import Mahindra_xuv from '../images/mahindra_XUV300.png'
-import Mahindra_thar from '../images/mahindra-thar.png'
+import mahindra_bolero from '../images/mahindra_bolero.png';
+import Mahindra_XUV500 from '../images/Mahindra-XUV500.png';
+import Mahindra_scorpio from '../images/mahindra-scorpio.png';
+import Mahindra_kuv100 from '../images/mahindra-kuv100.png';
+import Mahindra_xuv from '../images/mahindra_XUV300.png';
+import Mahindra_thar from '../images/mahindra-thar.png';
 
 // mg
 
-import mg_hector from '../images/mg_hector.png'
+import mg_hector from '../images/mg_hector.png';
 
 // nissan
 
-import nissan_micra from '../images/nissan-micra.png'
-import nissan_sunny from '../images/nissan-sunny.png'
-import nissan_terrano from '../images/nissan-terrano.png'
-import nissan_teana from '../images/nissan-teana.png'
-import nissan_x_trail from '../images/nissan-x-trail.png'
-import nissan_gtr from '../images/nissan-gtr.png'
+import nissan_micra from '../images/nissan-micra.png';
+import nissan_sunny from '../images/nissan-sunny.png';
+import nissan_terrano from '../images/nissan-terrano.png';
+import nissan_teana from '../images/nissan-teana.png';
+import nissan_x_trail from '../images/nissan-x-trail.png';
+import nissan_gtr from '../images/nissan-gtr.png';
 
 //renault
 
-import renault_kwid from '../images/renault-kwid.png'
-import renault_scala from '../images/renault-scala.png'
-import renault_duster from '../images/renault-duster.png'
-import renault_fluence  from "../images/renault-fluence.png"
-import renault_Triber from '../images/Renault_Tribe.png'
-import renault_koleos from '../images/renault-koleos.png'
+import renault_kwid from '../images/renault-kwid.png';
+import renault_scala from '../images/renault-scala.png';
+import renault_duster from '../images/renault-duster.png';
+import renault_fluence  from "../images/renault-fluence.png";
+import renault_Triber from '../images/Renault_Tribe.png';
+import renault_koleos from '../images/renault-koleos.png';
 
 // honda
 
-import honda_city from '../images/honda-city.png'
+import honda_city from '../images/honda-city.png';
+import honda_amaze from '../images/honda-amaze.png';
+import honda_brio from '../images/honda-brio.png';
+import honda_civic from '../images/honda-civic.png';
+import honda_accord from '../images/honda_accord.png';
+import honda_wrv from '../images/honda-wrv.png';
+import honda_brv from '../images/honda-brv.png';
+
+// ford
+
+import ford_ecosport from '../images/ford-ecosport.png';
+import ford_figo from '../images/ford-figo.png'; 
+import ford_fiesta from '../images/ford-fiesta.png'
+import ford_classic from '../images/ford-classic.png'
+
 
 export const carModelsByBrand = {
   maruti: [
@@ -668,7 +682,115 @@ export const carModelsByBrand = {
       description: "The Honda City is a premium 5-seater sedan known for its refined 1.5-litre i-VTEC petrol engine, high-speed stability, and spacious, comfortable interior.",
       services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
 
-    }
+    },
+    {
+      id: 2, 
+      name: "Honda Amaze", 
+      image: honda_amaze,
+      type: "Honda Amaze",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Honda Amaze is a premium sub-4-meter compact sedan known for its spacious cabin, 420-litre boot, and comfortable ride.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+
+    },
+    {
+      id: 3, 
+      name: "Honda Brio", 
+      image: honda_brio,
+      type: "Honda Brio",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Honda Brio is a compact 5-seater hatchback known for its peppy performance, stylish looks, and urban agility.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+    {
+      id: 4, 
+      name: "Honda Civic", 
+      image: honda_civic,
+      type: "Honda Civic",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Honda Brio is a compact 5-seater hatchback known for its peppy performance, stylish looks, and urban agility.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+    {
+      id: 5, 
+      name: "Honda Accord", 
+      image: honda_accord,
+      type: "Honda Accord",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Honda Accord is a renowned midsize sedan, now in its 11th generation, celebrated for its reliability, spacious cabin, and well-rounded driving dynamics.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+    {
+      id: 6, 
+      name: "Honda WRV", 
+      image: honda_wrv,
+      type: "Honda WRV",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Honda Accord is a renowned midsize sedan, now in its 11th generation, celebrated for its reliability, spacious cabin, and well-rounded driving dynamics.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+    {
+      id: 7, 
+      name: "Honda BRV", 
+      image: honda_brv ,
+      type: "Honda BRV",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Honda Accord is a renowned midsize sedan, now in its 11th generation, celebrated for its reliability, spacious cabin, and well-rounded driving dynamics.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+  ],
+
+  ford :[
+    {
+     id: 1, 
+      name: "Ford EcoSport", 
+      image: ford_ecosport ,
+      type: "Ford EcoSport",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Ford EcoSport is a compact SUV designed for urban driving, known for its high ground clearance, sturdy build, and agile handling. It offers a mix of petrol and diesel engines, typically featuring the SYNC infotainment system.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    
+    },
+    {
+     id: 2, 
+      name: "Ford Aspire", 
+      image: ford_figo ,
+      type: "Ford Aspire",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Ford Figo Aspire (later known simply as the Ford Aspire) is a sub-4-meter compact sedan manufactured by Ford India, recognized for its stylish design, superior driving dynamics, and high safety standards.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    
+    },
+    {
+     id: 3, 
+      name: "Ford Fiesta", 
+      image: ford_fiesta ,
+      type: "Ford Fiesta",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Ford Figo Aspire (later known simply as the Ford Aspire) is a sub-4-meter compact sedan manufactured by Ford India, recognized for its stylish design, superior driving dynamics, and high safety standards.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    
+    },
+    {
+     id: 4, 
+      name: "Ford Fiesta Classic", 
+      image: ford_classic ,
+      type: "Ford Fiesta Classic",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Ford Figo Aspire (later known simply as the Ford Aspire) is a sub-4-meter compact sedan manufactured by Ford India, recognized for its stylish design, superior driving dynamics, and high safety standards.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    
+    },
   ]
 
     
