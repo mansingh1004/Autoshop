@@ -106,8 +106,40 @@ import honda_brv from '../images/honda-brv.png';
 
 import ford_ecosport from '../images/ford-ecosport.png';
 import ford_figo from '../images/ford-figo.png'; 
-import ford_fiesta from '../images/ford-fiesta.png'
-import ford_classic from '../images/ford-classic.png'
+import ford_fiesta from '../images/ford-fiesta.png';
+import ford_classic from '../images/ford-classic.png';
+import ford_endeavour from '../images/ford-endeavour.png';
+import ford_Freestyle from '../images/Ford_Freestyl.png';
+
+// Citroen
+
+import Citroen_C3 from '../images/Citroen_C3.png'
+
+// mercedes
+
+import mercedes_e_class from '../images/mercedes_e_class.png'
+import mercedes_s_class from '../images/mercedes_s_class.png'
+import mercedes_c_class from '../images/mercedes_c_class.png'
+import mercedes from '../images/mercedes.png'
+
+// bmw
+
+import bmw_x1 from '../images/bmw-x1.png'
+import bmw_3_series from '../images/bmw-3-series.png'
+import bmw_5_series from '../images/bmw-5-series.png'
+import bmw_x3 from '../images/bmw-x3.png'
+import bmw_7_series from '../images/bmw-7-series.png'
+import bmw_x5 from '../images/bmw-x5.png'
+import bmw_x6 from '../images/bmw-x6.png'
+import bmw_m5 from '../images/bmw-m5.png'
+import bmw_z4 from '../images/bmw-z4.png'
+
+
+// audi
+
+import audi_a4 from '../images/audi-a4.png'
+import audi_a6 from '../images/audi-a6.png'
+import audi_q3 from '../images/audi-q3.png'
 
 
 export const carModelsByBrand = {
@@ -776,7 +808,7 @@ export const carModelsByBrand = {
       type: "Ford Fiesta",
       price: ".....", // Different price for SUV
       oldPrice: ".....",
-      description: "The Ford Figo Aspire (later known simply as the Ford Aspire) is a sub-4-meter compact sedan manufactured by Ford India, recognized for its stylish design, superior driving dynamics, and high safety standards.",
+      description: "The Ford Fiesta is a widely popular, nimble subcompact car known for its sporty handling, efficient engines (including EcoBoost), and stylish design, available as both a hatchback and sedan.",
       services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
     
     },
@@ -787,11 +819,222 @@ export const carModelsByBrand = {
       type: "Ford Fiesta Classic",
       price: ".....", // Different price for SUV
       oldPrice: ".....",
-      description: "The Ford Figo Aspire (later known simply as the Ford Aspire) is a sub-4-meter compact sedan manufactured by Ford India, recognized for its stylish design, superior driving dynamics, and high safety standards.",
+      description: "The Ford Fiesta Classic is a reliable 5-seater sedan renowned for its driving dynamics, featuring a 1.6L petrol or 1.4L diesel engine, hydraulic power steering, and a 5-speed manual transmission.",
       services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
     
     },
-  ]
+    {
+     id: 5, 
+      name: "Ford Endeavour", 
+      image: ford_endeavour,
+      type: "Ford Endeavour",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Ford Endeavour is a premium 7-seater, 5-door SUV, featuring a 2.0L EcoBlue diesel engine paired with a 10-speed automatic transmission, known for its bold design, robust off-road capabilities, and high comfort levels",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    
+    },
+    {
+     id: 6, 
+      name: "Ford Freestyle", 
+      image: ford_Freestyle,
+      type: "Ford Freestyle",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Ford Freestyle is a Compact Utility Vehicle (CUV) based on the Figo hatchback, blending rugged styling with fun-to-drive dynamics. It features a 1.2L petrol or 1.5L diesel engine, 190mm ground clearance, and a 5-speed manual gearbox",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    
+    },
+  ],
+  
+  citroen : [
+    {
+      id: 1, 
+      name: "citroën c3", 
+      image: Citroen_C3,
+      type: "citroën c3",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Citroën C3 is a compact 5-seater hatchback (often described with SUV-style design elements) known for its high ground clearance (180 mm), comfortable ride quality, and customizable exterior options",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    
+    }
+  ],
+
+  mercedes: [
+    {
+      id: 1, 
+      name: "mercedes e class", 
+      image: mercedes_e_class,
+      type: "mercedes e class",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Mercedes E-Class is a premium mid-size luxury sedan renowned for blending comfort, advanced technology, and executive-level styling",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+    {
+      id: 2, 
+      name: "mercedes s class", 
+      image: mercedes_s_class,
+      type: "mercedes s class",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Mercedes-Benz S-Class is the flagship full-size luxury sedan, renowned as the gold standard for automotive innovation, comfort, and safety",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+    {
+      id: 3, 
+      name: "mercedes c class", 
+      image: mercedes_c_class,
+      type: "mercedes c class",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Mercedes-Benz C-Class is a premium compact executive car, often called a baby S-Class for its blend of luxury, advanced technology, and comfort.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+    {
+      id: 4, 
+      name: "Mercedes Maybach", 
+      image: mercedes,
+      type: "Mercedes Maybach",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "Mercedes-Maybach represents the pinnacle of Mercedes-Benz luxury, offering ultra-premium, chauffeur-focused vehicles like the S-Class sedan and GLS SUV.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+    
+  ],
+
+  bmw :[
+    {
+      id: 1, 
+      name: "BMW X1", 
+      image: bmw_x1,
+      type: "BMW X1",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The BMW X1 is a premium subcompact luxury crossover SUV that serves as the entry-level model in BMW’s X-series lineup.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+    {
+      id: 2, 
+      name: "BMW 3 Series", 
+      image: bmw_3_series,
+      type: "BMW 3 Series",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The BMW 3 Series is a premier compact executive luxury sedan known for balancing sporty performance with daily usability.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+    {
+      id: 3, 
+      name: "BMW 5 Series", 
+      image: bmw_5_series,
+      type: "BMW 5 Series",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The BMW 5 Series is a premium executive sedan, currently in its eighth generation, renowned for balancing luxury, advanced technology, and sporty driving dynamics.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+    {
+      id: 4, 
+      name: "BMW X3", 
+      image: bmw_x3,
+      type: "BMW X3",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The BMW X3 is a premium compact luxury SUV known for blending sporty handling, a comfortable ride, and high-tech features.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+    {
+      id: 5, 
+      name: "BMW 7 Series", 
+      image: bmw_7_series,
+      type: "BMW 7 Series",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The BMW 7 Series is a full-size luxury flagship sedan offering a blend of high-end comfort, advanced technology, and powerful performance.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+
+    {
+      id: 6, 
+      name: "BMW X5", 
+      image: bmw_x5,
+      type: "BMW X5",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The BMW X5 is a premium mid-size luxury SUV or Sports Activity Vehicle known for balancing high performance, comfort, and advanced technology.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+    {
+      id: 7, 
+      name: "BMW X6", 
+      image: bmw_x6,
+      type: "BMW X6",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The BMW X6 is a luxury mid-size crossover SUV, known as the creator of the Sports Activity Coupé (SAC) segment, featuring a distinctive sloping roofline and a 5-door design.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+    {
+      id: 8, 
+      name: "BMW M5", 
+      image: bmw_m5,
+      type: "BMW M5",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The BMW M5 is a high-performance luxury sedan combining executive comfort with track-ready speed.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+    {
+      id: 9, 
+      name: "BMW Z4", 
+      image: bmw_z4,
+      type: "BMW Z4",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The BMW Z4 (G29 generation) is a premium 2-seater convertible roadster that balances high-performance driving with daily usability.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+
+  ],
+
+  audi :[
+    {
+     id: 1, 
+      name: "Audi A4", 
+      image: audi_a4,
+      type: "Audi A4",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Audi A4 is a premium compact executive sedan known for its sophisticated, understated design, refined performance, and high-quality cabin.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+     
+    },
+    {
+     id: 2, 
+      name: "Audi A6", 
+      image: audi_a6,
+      type: "Audi A6",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Audi A6 is a premium executive sedan known for blending sophisticated design, advanced technology, and high comfort levels.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+     
+    },
+    {
+     id: 3, 
+      name: "Audi Q3", 
+      image: audi_q3,
+      type: "Audi Q3",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Audi Q3 is a premium compact luxury SUV/crossover, available in standard SUV and stylish Sportback coupe-SUV body styles.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+     
+    },
+  ],
 
     
   // ... other brands
