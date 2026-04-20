@@ -1,18 +1,3 @@
-// // src/data/carData.js
-// import Swift from '../images/maruti-suzuki-swift-diesel-tilted.jpg';
-
-// export const carModelsByBrand = {
-//   maruti: [
-//     { id: 1, name: "Maruti Swift", image: Swift, type: "Hatchback" },
-//     { id: 2, name: "Maruti Brezza", image: "https://example.com/brezza.jpg", type: "SUV" },
-//   ],
-//   hyundai: [
-//     { id: 4, name: "Hyundai Creta", image: "https://example.com/creta.jpg", type: "SUV" },
-//   ],
-//   // Add other brands here...
-// };
-
-
 // src/data/carData.js
 
 // maruti model
@@ -140,7 +125,35 @@ import bmw_z4 from '../images/bmw-z4.png'
 import audi_a4 from '../images/audi-a4.png'
 import audi_a6 from '../images/audi-a6.png'
 import audi_q3 from '../images/audi-q3.png'
+import audi_q7 from '../images/audi-q7.png'
+import audi_a3 from '../images/audi-a3.png'
+import audi_q5 from '../images/audi-q5.png'
+import audi_a8l from '../images/audi-a8l.png'
+import audi_a7 from '../images/audi-a7.png'
+import audi_as5 from '../images/brand-18.png'
 
+// land-rover
+
+import land_rover_discovery_sport from '../images/land-rover-discovery-sport.png'
+import land_rover_range_rover_evoque from '../images/land-rover-range-rover-evoque.png'
+import land_rover_freelander from '../images/land-rover-freelander.png'
+import land_rover_range_rover_sport from '../images/land-rover-range-rover-sport.png'
+import land_rover_discovery from '../images/land-rover-discovery.png'
+
+// jaguar
+
+import jaguar_xf from '../images/jaguar-xf.png'
+import jaguar_xe from '../images/jaguar-xe.png'
+import jaguar_xj from '../images/jaguar-xj.png'
+import jaguar_f from '../images/jaguar_f.png'
+
+
+// volvo
+
+import volvo_s60 from '../images/volvo-s60.png'
+import volvo_V40 from '../images/Volvo_V40.png'
+import volvo_s80 from '../images/volvo-s80.png'
+import volvo_xc60 from '../images/volvo-xc60.png'
 
 export const carModelsByBrand = {
   maruti: [
@@ -1034,7 +1047,213 @@ export const carModelsByBrand = {
       services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
      
     },
+    {
+     id: 4, 
+      name: "Audi Q7", 
+      image: audi_q7,
+      type: "Audi Q7",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Audi Q7 is a premium, full-size luxury 7-seater SUV that serves as a versatile, comfortable family vehicle with an understated design.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+     
+    },
+
+    {
+     id: 5, 
+      name: "Audi A3", 
+      image: audi_a3,
+      type: "Audi A3",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Audi A3 is a premium compact car (available as a Sportback hatchback or Sedan) known for its upscale interior, advanced technology, and refined driving dynamics.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+     
+    },
+    {
+     id: 6, 
+      name: "Audi Q5", 
+      image: audi_q5,
+      type: "Audi Q5",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Audi Q5 is a premium compact luxury SUV known for blending sporty performance, sophisticated design, and practical everyday utility.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+     
+    },
+    {
+     id: 7, 
+      name: "Audi A8 L", 
+      image: audi_a8l,
+      type: "Audi A8 L",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Audi A8 L is a flagship, long-wheelbase luxury sedan emphasizing comfort, technology, and status.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+    {
+     id: 8, 
+      name: "Audi A7", 
+      image: audi_a7,
+      type: "Audi A7",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Audi A7 is a luxury five-door Sportback liftback combining coupe-like styling with sedan comfort and hatchback versatility.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+    {
+     id: 9, 
+      name: "Audi RS5", 
+      image: audi_as5,
+      type: "Audi RS5",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Audi RS5 is a high-performance luxury vehicle, primarily available as a Sportback (4-door), known for blending aggressive styling with daily usability.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+    
   ],
+
+   land_rover : [ 
+     {
+      id: 1, 
+      name: "Land Rover Discovery Sport", 
+      image: land_rover_discovery_sport,
+      type: "Land Rover Discovery Sport",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Land Rover Discovery Sport is a premium, compact 7-seat family SUV blending luxury with Land Rover’s signature all-terrain capability.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+     },
+
+     {
+      id: 2, 
+      name: "Range Rover Evoque", 
+      image: land_rover_range_rover_evoque,
+      type: "Range Rover Evoque",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Land Rover Range Rover Evoque is a compact luxury crossover SUV known for its sleek, urban-focused design, featuring a floating roof and reductive aesthetic.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+     },
+     {
+      id: 3, 
+      name: "Freelander 2", 
+      image: land_rover_freelander,
+      type: "Freelander 2",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Land Rover Freelander 2 is a premium compact SUV known for combining robust off-road capability with refined on-road comfort.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+     },
+     {
+      id: 4, 
+      name: "Range Rover Sport", 
+      image: land_rover_range_rover_sport,
+      type: "Range Rover Sport",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Land Rover Range Rover Sport is a luxury performance SUV blending high-end refinement with athletic handling and off-road capability.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+     },
+     {
+      id: 5, 
+      name: "Land Rover Discovery 4", 
+      image: land_rover_discovery,
+      type: "Land Rover Discovery 4",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Land Rover Discovery Sport is a compact, luxurious 5+2 seater SUV designed for family versatility and off-road capability.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+     },
+    ],
+
+    jaguar :[
+      {
+      id: 1, 
+      name: "Jaguar XF", 
+      image: jaguar_xf,
+      type: "Jaguar XF",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Jaguar XF is a luxurious mid-size executive sedan (and estate/sportbrake) known for its striking, aerodynamic styling and engaging driving dynamics.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+      },
+      {
+      id: 2, 
+      name: "Jaguar XE", 
+      image: jaguar_xe,
+      type: "Jaguar XE",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Jaguar XE is a compact executive car known for its sporty handling, lightweight aluminum architecture, and luxurious, driver-focused interior.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+      },
+      {
+      id: 3, 
+      name: "Jaguar XJ", 
+      image: jaguar_xj ,
+      type: "Jaguar XJ",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Jaguar XJ is a premier luxury full-size saloon produced , serving as the flagship model known for blending opulent comfort with sporty performance.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+      },
+      {
+      id: 4, 
+      name: "Jaguar F Type", 
+      image: jaguar_f,
+      type: "Jaguar F Type",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Jaguar F-Type is a luxurious, two-seater sports car (coupe or convertible) known for its stunning design, aggressive performance, and distinctive supercharged V8 engine sound.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+      },
+    ],
+
+    volvo :[
+      {
+      id: 1, 
+      name: "Volvo S60", 
+      image: volvo_s60,
+      type: "Volvo S60",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Volvo S60 is a premium midsize luxury sedan known for its Scandinavian design, exceptional safety features, and comfortable, minimalist interior.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+      {
+      id: 2, 
+      name: "Volvo V40", 
+      image: volvo_V40,
+      type: "Volvo V40",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Volvo V40 is a premium compact 5-door hatchback known for its high safety standards, Scandi-cool design, and comfortable ride.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+    {
+      id: 3, 
+      name: "Volvo S80", 
+      image: volvo_s80,
+      type: "Volvo S80",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Volvo S80 is an executive luxury sedan produced by Volvo Cars, serving as the brand's flagship sedan across two generations.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+    {
+      id: 4, 
+      name: "Volvo XC60", 
+      image: volvo_xc60,
+      type: "Volvo XC60",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Volvo XC60 is a premium midsize luxury SUV celebrated for its safety, Scandinavian design, and comfort-focused driving experience.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+
+  ]
 
     
   // ... other brands

@@ -39,7 +39,7 @@ const BrandGrid = () => {
     { name: 'Mercedes', logo: 'https://www.carlogos.org/logo/Mercedes-Benz-logo-2011-1920x1080.png' },
     { name: 'BMW', logo: BMW },
     { name: 'Audi', logo: audi },
-    { name: 'Land Rover', logo: landrover },
+    { name: 'Land_Rover', logo: landrover },
     { name: 'Jaguar', logo: 'https://www.carlogos.org/logo/Jaguar-logo-2012-1920x1080.png' },
     { name: 'Volvo', logo: volvo },
     { name: 'Mini Cooper', logo: minicooper },
