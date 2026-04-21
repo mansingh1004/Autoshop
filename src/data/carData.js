@@ -154,6 +154,22 @@ import volvo_s60 from '../images/volvo-s60.png'
 import volvo_V40 from '../images/Volvo_V40.png'
 import volvo_s80 from '../images/volvo-s80.png'
 import volvo_xc60 from '../images/volvo-xc60.png'
+import volvo_xc90 from '../images/volvo-xc90.png'
+
+// mini__cooper 
+
+import mini_cooper from '../images/mini-cooper.png'
+import mini_countryman from '../images/mini-countryman.png'
+import mini_one from '../images/mini_one.png'
+
+// porsche
+
+import porsche_911 from '../images/porsche-911.png'
+import porsche_cayenne from '../images/porsche-cayenne.png'
+import porsche_macan from '../images/porsche-macan.png'
+import porsche_cayman from '../images/porsche-cayman.png'
+import Porsche_Panamera from '../images/Porsche_Panamera.png'
+import Porsche_Boxter from '../images/Porsche-Boxter.png'
 
 export const carModelsByBrand = {
   maruti: [
@@ -1252,7 +1268,112 @@ export const carModelsByBrand = {
       description: "The Volvo XC60 is a premium midsize luxury SUV celebrated for its safety, Scandinavian design, and comfort-focused driving experience.",
       services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
     },
+    {
+      id: 5, 
+      name: "Volvo XC90", 
+      image: volvo_xc90,
+      type: "Volvo XC90",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Volvo XC90 is a luxurious, Scandinavian-designed, 7-seater mild-hybrid or plug-in hybrid SUV known for top-tier safety, minimalist luxury, and premium build quality.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+  ],
 
+  mini_cooper :[
+    {
+      id: 1, 
+      name: "Mini Cooper", 
+      image: mini_cooper,
+      type: "Mini Cooper",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Mini Cooper is an iconic, compact premium car renowned for its retro-styling, go-kart handling, and fun-to-drive nature.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+    {
+      id: 2, 
+      name: "Mini Countryman", 
+      image: mini_countryman,
+      type: "Mini Countryman",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The MINI Countryman is a premium compact SUV (or crossover) known for its distinctive styling, go-kart handling, and MINI-ness with added practicality.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    },
+    {
+      id: 3, 
+      name: "Mini One", 
+      image: mini_one,
+      type: "Mini One",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The MINI One is the entry-level variant in the Mini Hatch lineup, offering the iconic British design, premium build quality, and signature go-kart handling at a more accessible price point than the Mini Cooper.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"] 
+    }
+  ],
+
+  porsche :[
+    {
+     id: 1, 
+      name: "Porsche 911", 
+      image: porsche_911,
+      type: "Porsche 911",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Porsche 911 is an iconic, rear-engine luxury sports car renowned for its timeless silhouette, precision engineering, and daily drivability.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
+    },
+    {
+     id: 2, 
+      name: "Porsche Cayenne", 
+      image: porsche_cayenne,
+      type: "Porsche Cayenne",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Porsche Cayenne is a luxury performance SUV blending sports car dynamics with everyday versatility.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
+    },
+    {
+     id: 3, 
+      name: "Porsche Macan", 
+      image: porsche_macan,
+      type: "Porsche Macan",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Porsche Macan is a luxury compact SUV that combines everyday practicality with high-performance sports car DNA.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
+    },
+     {
+     id: 4, 
+      name: "Porsche Cayman", 
+      image: porsche_cayman,
+      type: "Porsche Cayman",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Porsche Cayman is a high-performance, two-seater fastback coupé renowned for its exceptional handling and balanced dynamics.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
+    },
+    {
+     id: 5, 
+      name: "Porsche Panamera", 
+      image: Porsche_Panamera,
+      type: "Porsche Panamera",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Porsche Panamera is a high-performance luxury sedan that blends sports car dynamics with executive comfort, often featuring V6 or V8 turbo engines.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
+    },
+     {
+     id: 6, 
+      name: "Porsche Boxter", 
+      image: Porsche_Boxter,
+      type: "Porsche Boxter",
+      price: ".....", // Different price for SUV
+      oldPrice: ".....",
+      description: "The Porsche Panamera is a high-performance luxury sedan that blends sports car dynamics with executive comfort, often featuring V6 or V8 turbo engines.",
+      services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]  
+    }
   ]
 
     

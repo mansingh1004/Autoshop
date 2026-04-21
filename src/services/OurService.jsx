@@ -42,7 +42,7 @@ const BrandGrid = () => {
     { name: 'Land_Rover', logo: landrover },
     { name: 'Jaguar', logo: 'https://www.carlogos.org/logo/Jaguar-logo-2012-1920x1080.png' },
     { name: 'Volvo', logo: volvo },
-    { name: 'Mini Cooper', logo: minicooper },
+    { name: 'Mini_Cooper', logo: minicooper },
     { name: 'Porsche', logo:porsche},
     { name: 'Lexus', logo: lexus },
     { name: 'Ferrari', logo:ferrari },
