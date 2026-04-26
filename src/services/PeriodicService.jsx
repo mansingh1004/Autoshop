@@ -73,7 +73,7 @@ const PeriodicServiceDetail = () => {
               <X size={24} />
             </button>
             <h2 className="text-2xl font-black text-white mb-2 uppercase italic">Reserve Your Slot</h2>
-            <p className="text-slate-400 text-sm mb-8 font-medium">Periodic Service • ₹2,499</p>
+            <p className="text-slate-400 text-sm mb-8 font-medium">Periodic Service • ₹...</p>
             <form onSubmit={handleBooking} className="space-y-4">
               <input type="text" name="name" placeholder="Full Name" required className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-4 text-white focus:outline-none focus:border-red-600 transition-all" />
               <input type="tel" name="phone" placeholder="Phone Number" required className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-4 text-white focus:outline-none focus:border-red-600 transition-all" />
@@ -185,8 +185,8 @@ const PeriodicServiceDetail = () => {
                 <p className="text-slate-400 text-sm mb-8">Select your package and book a slot in seconds.</p>
                 <div className="space-y-6">
                   <div className="bg-white/5 border border-white/10 p-5 rounded-2xl flex justify-between items-center">
-                    <div><p className="text-xs font-bold text-red-500 uppercase tracking-tighter">Standard Price</p><p className="text-3xl font-black">₹3,499</p></div>
-                    <div className="text-right"><p className="text-xs text-slate-500 line-through font-bold">₹2,499</p><p className="text-sm text-green-400 font-bold">Save 20%</p></div>
+                    <div><p className="text-xs font-bold text-red-500 uppercase tracking-tighter">Standard Price</p><p className="text-3xl font-black">₹...</p></div>
+                    <div className="text-right"><p className="text-xs text-slate-500 line-through font-bold">₹...</p><p className="text-sm text-green-400 font-bold">Save 20%</p></div>
                   </div>
                   <div className="space-y-4">
                     <button onClick={() => setIsModalOpen(true)} className="w-full bg-red-600 hover:bg-red-700 text-white font-black uppercase tracking-widest py-5 rounded-2xl flex items-center justify-center gap-3 transition-all transform active:scale-95 shadow-lg shadow-red-900/20">

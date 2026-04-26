@@ -209,8 +209,8 @@ export const carModelsByBrand = {
       name: "Swift", 
       image: Swift,
       type: "Hatchback",
-      price: "3,332", // Specific price for Swift
-      oldPrice: "4,331",
+      price: "...", // Specific price for Swift
+      oldPrice: "....",
       description: "Express maintenance for your Maruti Swift.",
       services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking", "Cabin Filter / AC Filter Cleaning" , "Coolant Top up (200 ml)", "Wiper Fluid Replacement" , "Brake Fluid Top up (50 ml)", "Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Service"]
     },
@@ -219,8 +219,8 @@ export const carModelsByBrand = {
       name: "Wagonr", 
       image: MarutiSuzuki,
       type: "SUV",
-      price: "3,076", // Different price for SUV
-      oldPrice: "3,966",
+      price: "...", // Different price for SUV
+      oldPrice: "....",
       description: "Full SUV diagnostic and service for Wagnor.",
       services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
     },
@@ -229,8 +229,8 @@ export const carModelsByBrand = {
       name: "Swift Dzire", 
       image: SwiftDezire,
       type: "SUV",
-      price: "3,422", // Different price for SUV
-      oldPrice: "4,460",
+      price: "....", // Different price for SUV
+      oldPrice: "....",
       description: "Full SUV diagnostic and service for Swift.",
       services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
     },
@@ -239,8 +239,8 @@ export const carModelsByBrand = {
       name: "Baleno", 
       image: MarutiSuzukiBaleno,
       type: "SUV",
-      price: "3,557", // Different price for SUV
-      oldPrice: "4,653",
+      price: "...", // Different price for SUV
+      oldPrice: "...",
       description: "Full SUV diagnostic and service for Baleno.",
       services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
     },
@@ -249,8 +249,8 @@ export const carModelsByBrand = {
       name: "Maruti Alto", 
       image: MarutiAlto,
       type: "SUV",
-      price: "3,076", // Different price for SUV
-      oldPrice: "3,966",
+      price: "...", // Different price for SUV
+      oldPrice: "....",
       description: "Full SUV diagnostic and service for Baleno.",
       services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
     },
@@ -259,8 +259,8 @@ export const carModelsByBrand = {
       name: "Maruti Suzuki Ritz", 
       image: MarutiRitz,
       type: "Maruti Suzuki Ritz",
-      price: "2,829", // Different price for SUV
-      oldPrice: "3,613",
+      price: "...", // Different price for SUV
+      oldPrice: "...",
       description: "Full SUV diagnostic and service for Baleno.",
       services: ["Engine Oil Replacement", "Oil Filter Replacement", "Air Filter Replacement","Fuel Filter Checking","Cabin Filter / AC Filter Cleaning","Coolant Top up (200 ml)","Wiper Fluid Replacement","Brake Fluid Top up (50 ml)","Battery Water Top up","Heater/Sparks Plugs Checking","Car Wash","Interior Vacuuming ( Carpet & Seats )","Scanning","Rear Brake Shoes Serviced","Front Brake Pads Serviced"]
     },
